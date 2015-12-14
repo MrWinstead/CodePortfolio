@@ -12,7 +12,7 @@ transaction-based and persistent across application crashes. This is my most
 complex C project at around 1000 lines to date with much work in data
 marshalling and self-created file formats.
 
-  As a security note, this rvm library is susseptible to a file format attack
+  As a security note, this rvm library is susceptible to a file format attack
 in which the attacker canges some of the offsets in the backing file for an
 application. Abuse of the blind trust in the backing file would allow an
 attacker to overwrite mapped-in regions of the target. The descision was taken
