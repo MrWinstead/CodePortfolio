@@ -10,7 +10,8 @@ to know more about it, feel free to ask in our correspondence.
 needed to implement recoverable virtual memory (rvm) to make a memory region
 transaction-based and persistent across application crashes. This is my most
 complex C project at around 1000 lines to date with much work in data
-marshalling and self-created file formats.
+marshalling and self-created file formats. All my my work may be found in
+rvm.c.
 
   As a security note, this rvm library is susceptible to a file format attack
 in which the attacker canges some of the offsets in the backing file for an
